@@ -90,12 +90,16 @@
               "src/assets"
             ],
             "styles": [
+              "PortfolioGaston/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["PortfolioGaston/node_modules/bootstrap/dist/js/bootstrap.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "04f9caec-a807-453e-a7d1-ee8d74dc5cf5"
   }
 }
