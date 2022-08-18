@@ -1,0 +1,48 @@
+.row{
+    padding: 25px;
+    background-color: black;
+}
+
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box{
+    width: 50%;
+    height: 150px;
+    text-align: justify;
+}
+
+@media (max-width: 575px){
+    .box{
+        width: 100%;
+        height: 180px;
+        text-align: justify;
+    }
+    .flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+   }
+}
+
+.img{
+    box-shadow: 5px 5px 15px #32b5f1;
+    display: block;
+    margin: 0px auto;
+}
+
+h2, h3{
+    display: inline;
+    color: white;
+    font-family: Arial;
+}
+
+h1, p, ul{
+    color: white;
+    font-family: Arial;
+}

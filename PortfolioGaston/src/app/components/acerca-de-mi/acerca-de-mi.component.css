@@ -1,8 +1,9 @@
 .row{
     padding: 20px;
+    background: black;
 }
 div{
-    background-color: black;
+
     text-align: center;
 }
 #nombre{
