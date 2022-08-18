@@ -1,0 +1,49 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: black;
+    text-align: center;
+}
+#nombre{
+    font-weight: bold;
+    left: 13%;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+    font-family: Arial;
+}
+
+p{
+    color: white;
+    font-family: Arial;
+}
+
+/*Foto de perfil*/
+@media (min-width: 576px){
+    #foto1{
+        position: absolute;
+        width: 15%;
+        max-height: 36%;
+        max-width: 12%;
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px #32b5f1;
+        top: 400px;
+        left: 2%;
+    }
+    
+}
+
+@media (max-width: 575px){
+    #foto1{
+        position: absolute;
+        width: 30%;
+        border-radius: 10%;
+        box-shadow: 4px 4px 4px #32b5f1;
+        top: 380px;
+        left: 35%;
+    }
+
+}
