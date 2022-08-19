@@ -1,4 +1,4 @@
-package com.portfolio.gel;
+package com.portfolio.GEL;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
