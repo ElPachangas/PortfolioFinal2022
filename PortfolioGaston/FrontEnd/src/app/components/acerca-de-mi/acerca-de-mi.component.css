@@ -22,6 +22,10 @@ p{
     font-family: Arial;
 }
 
+.yo{
+    font-size: 25px;
+}
+
 /*Foto de perfil*/
 @media (min-width: 576px){
     #foto1{
