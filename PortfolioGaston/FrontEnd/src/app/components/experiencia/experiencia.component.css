@@ -1,0 +1,12 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color:black;
+}
+
+h1, h2, h3{
+    color: white;
+    font-family: Arial;
+}
