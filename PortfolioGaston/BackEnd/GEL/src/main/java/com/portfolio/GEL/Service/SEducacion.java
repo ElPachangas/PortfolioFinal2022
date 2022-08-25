@@ -11,23 +11,22 @@ import org.springframework.stereotype.Service;
 @Service
 @Transactional
 public class SEducacion {
-
     @Autowired
     REducacion rEducacion;
-
-    public List<Educacion> list() {
+    
+    public List<Educacion> list(){
         return rEducacion.findAll();
     }
-
-    public Optional<Educacion> getOne(int id) {
+    
+    public Optional<Educacion> getOne(int id){
         return rEducacion.findById(id);
     }
-
-    public Optional<Educacion> getByNombreE(String nombreE) {
+    
+    public Optional<Educacion> getByNmbreE(String nombreE){
         return rEducacion.findByNombreE(nombreE);
     }
-
-    public void save(Educacion educacion) {
+    
+    public void save(Educacion educacion){
         rEducacion.save(educacion);
     }
     
